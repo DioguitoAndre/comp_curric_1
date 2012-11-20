@@ -1,0 +1,11 @@
+<?php
+
+// $_POST = variavel
+
+// var_dump($_POST);
+
+echo $_POST("nome"),"<br>";
+echo $_POST("email"),"<br>";
+echo $_POST("mensagem");
+
+?>
