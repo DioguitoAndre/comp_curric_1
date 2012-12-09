@@ -19,32 +19,28 @@
       }
     </style>
     
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-
-
-
-
-    <!--usado para que o Internet Explorer leia o codigo para dar suporte
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    
   </head>
 
   <body>
 
 
+
+
+
+
+
+
+
+
 <form action="formulario.php" method="POST"> 
 
 <fieldset>
-<legend=Formulario de Contato></legend>
+<legend>Formulario de Contato</legend>
 
-<input type="hidden" name="pagina" value="contato">
+<input type="hidden" name="pagina" id="contato">
 
-<label for="idNome">Nome;</label>
-<input type="email" name="email" id="idNome">
+<label for="idNome">Nome:</label>
+<input type="text" name="nome" id="idNome">
 
 <label for="idEmail">E-mail;</label>
 <input type="email" name="email" id="idEmail">

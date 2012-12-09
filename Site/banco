@@ -1,0 +1,13 @@
+<?php
+
+mysql_connect("localhost", "root", "diogo") or die(mysql_error());
+
+$sql = "insert into contact (id, name, email, menssage, created) values (1, Diogo, diogoandrebesen@yahoo.com.br, mansagem, now()";
+
+mysql_query($sql) or die(mysql_error());
+
+echo "funcionou?";
+
+mysql_close();
+
+?>
